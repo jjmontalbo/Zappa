@@ -4,6 +4,8 @@ from setuptools import setup
 from io import open
 from zappa import __version__
 
+version = "0.51.0-post.1"
+
 with open('README.md') as readme_file:
     long_description = readme_file.read()
 
